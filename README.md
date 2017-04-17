@@ -36,7 +36,7 @@ xmlns, is an XML markup language and W3C specification that provides methods for
 ```html
 <g> for separate two svg elements</g>
 ```
-3. **Some css properties for svg elements**
+## Some css properties for svg elements
 * To decide the color of stroke
 ```css
   stroke:color;
@@ -61,7 +61,7 @@ xmlns, is an XML markup language and W3C specification that provides methods for
 ```css
   stroke-linecap:round or square or butt;
 ```
-4. **To get total length of particular stroke use javascript** 
+## To get total length of particular stroke use javascript
 ```javascript
   var element = document.querySelector("that path's id or class");
   var length = element.getTotalLength();
