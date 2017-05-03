@@ -61,7 +61,7 @@ xmlns, is an XML markup language and W3C specification that provides methods for
 ```css
   stroke-linecap:round or square or butt;
 ```
-## To get total length of particular stroke use javascript
+## To get total length of particular stroke using javascript
 ```javascript
   var element = document.querySelector("that path's id or class");
   var length = element.getTotalLength();
